@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: René Rettig <rene.rettig@helheim.cloud>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>vscodeserverintegration</id>
+    <name>V S Code Server Integration</name>
+    <summary>VSCode Server Integration App</summary>
+    <description><![CDATA[This is a test app]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="rene.rettig@helheim.cloud" >René Rettig</author>
+    <namespace>VSCodeServerIntegration</namespace>
+    <category>integration</category>
+    <bugs>https://github.com/helheimcloud/Nextcloud-VSCode-integration/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="25" max-version="25"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>V S Code Server Integration</name>
+            <route>vscodeserverintegration.page.index</route>
+        </navigation>
+    </navigations>
+</info>
